@@ -13,7 +13,7 @@ console.log(`Server running on port ${port}`);
 
 // Configure CORS
 app.use(cors({
-    origin: ['http://bgrm.dreamik.com', `http://localhost:${port}`,'http://localhost:5173'], // Allow requests from specific origins
+    origin: ['http://bgrm.dreamik.com', `http://localhost:${port}`,'http://localhost:5173','https://bg-frontend.onrender.com'], // Allow requests from specific origins
     methods: ['GET', 'POST'],
     allowedHeaders: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept']
 }));
