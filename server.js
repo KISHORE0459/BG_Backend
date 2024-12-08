@@ -34,7 +34,7 @@ app.post('/remove-bg', upload.single('image'), async (req, res) => {
         // Process the image with remove.bg
         const result = await removeBackgroundFromImageBase64({
             base64img: base64Image,
-            apiKey: process.env.API_KEY,
+            apiKey: 'ZTrHCAEajKTgU3AxDC4ZQYfu',
             size: 'regular',
             type: 'auto'
         });
